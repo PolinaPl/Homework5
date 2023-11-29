@@ -38,9 +38,9 @@ public class Main {
         int deliveryDistance = 95;
         if (deliveryDistance <= 20) {
             System.out.println("Потребуется сутки.");
-        } else if (deliveryDistance > 20 && deliveryDistance <= 60) {
+        } else if (deliveryDistance <= 60) {
             System.out.println("Потребуется двое суток.");
-        } else if (deliveryDistance > 60 && deliveryDistance <= 100) {
+        } else if (deliveryDistance <= 100) {
             System.out.println("Потребуется трое суток.");
         } else {
             System.out.println("Доставка не осуществляется.");
